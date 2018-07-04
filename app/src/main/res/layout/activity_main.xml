@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Masukan Nama"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginTop="72dp"
+        android:text="TextView"
+        tools:text="Pilih Minuman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginTop="103dp"
+        android:text="Es Teh" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextJumlahJeruk"
+        android:layout_alignTop="@+id/checkBoxEsTeh"
+        android:text="Es Jeruk" />
+
+    <EditText
+        android:id="@+id/editTextJumlahTeh"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:hint="Jumlah Es Teh"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextJumlahJeruk"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editTextJumlahTeh"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="Jumlah Es Jeruk"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginBottom="217dp" />
+
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginBottom="190dp" />
+
+    <TextView
+        android:id="@+id/textViewPilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginBottom="163dp" />
+
+    <TextView
+        android:id="@+id/textViewHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextNama"
+        android:layout_marginBottom="135dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:text="Order" />
+
+    <TextView
+        android:id="@+id/textViewTq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp" />
+
+</RelativeLayout>
